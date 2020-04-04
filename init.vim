@@ -166,13 +166,11 @@ nnoremap <M-h> :call ToggleHiddenAll()<CR>
 call plug#begin('~/.config/nvim/plugged')
 
 "" Files
-" Plug 'vimwiki/vimwiki'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install' }
 "" UI
 Plug 'epeery/ugly'
 Plug 'junegunn/goyo.vim'
 Plug 'sheerun/vim-polyglot'
-" Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
 Plug 'chrisbra/Colorizer'
 Plug 'reedes/vim-colors-pencil'
 Plug 'pgdouyon/vim-yin-yang'
@@ -180,8 +178,6 @@ Plug 'pgdouyon/vim-yin-yang'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'junegunn/vim-easy-align'
-" Plug 'vim-scripts/mru.vim'
-" Plug 'easymotion/vim-easymotion'
 Plug 't9md/vim-textmanip'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
@@ -197,12 +193,8 @@ Plug 'reedes/vim-wordy'
 "" Languages
 """ Haskell
 Plug 'neovimhaskell/haskell-vim'
-" Plug 'enomsg/vim-haskellConcealPlus'
 """ JavaScript
 Plug 'pangloss/vim-javascript'
-Plug 'prettier/vim-prettier', {
-  \ 'do': 'yarn install',
-  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
 """ JSX
 Plug 'mxw/vim-jsx'
 """ JSON
